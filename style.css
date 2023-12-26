@@ -1,0 +1,57 @@
+html{
+	background-color: gray;
+}
+
+
+.flag{
+
+	top: 100px;
+	left: 250px;
+	height: 400px;
+	width: 900px;
+	background-color: white;
+	position: absolute;
+
+}
+
+.flag > div{
+
+	height: 400px;
+	width: 600px;
+	background-color: green;
+	position: relative;
+	left: 300px;
+}
+
+#moon
+{
+	width: 200px;
+	height: 200px;
+	background-color: white;
+	border-radius: 50%;
+	position: relative;
+	top: 100px;
+	left: 200px;
+}
+
+#star
+{
+	width: 180px;
+	height: 180px;
+	background-color:green;
+	border-radius: 50%;
+	position: relative;
+	top: 0px;
+	left: 40px;
+}
+
+
+#star > div
+{
+
+	color: white;
+	position: relative;
+	font-size: 100px;
+	top: 10px;
+	left: 40px;
+}
